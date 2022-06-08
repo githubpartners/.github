@@ -1,0 +1,35 @@
+name: Capture new projects for partners
+description: Capture new projects for partners
+title: "[Title of the new project]"
+labels: [new project]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ![banner-ooh-1](https://user-images.githubusercontent.com/6351798/172678916-1e6448f8-2a8d-4e74-84c4-7b215f2d5408.png)) </br> <div align="center"><h1> Please use the below form to capture new projects for partners!
+  - type: textarea
+    id: name
+    attributes:
+      label: What is the customer name?
+  - type: textarea
+    id: timezone
+    attributes:
+      label: What is the timezone?
+  - type: textarea
+    id: type
+    attributes:
+      label: What is the enterprise type?
+  - type: textarea
+    id: duration
+    attributes:
+      label: What is the duration?
+  - type: textarea
+    id: start
+    attributes:
+      label: What is the estimated start date?
+  - type: textarea
+    id: Notes
+    attributes:
+      label: Notes
+      description: Please provide any important notes such as the main services issue
+     
