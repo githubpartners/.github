@@ -28,6 +28,25 @@ body:
     attributes:
       label: What is the estimated start date?
   - type: textarea
+    id: contract
+    attributes:
+      label: What is the contract end date?
+
+  - type: checkboxes
+    id: ff
+    attributes:
+      label: Required timetracking
+      options:
+        - label: Financial Force
+          required: false
+  - type: checkboxes
+    id: esxp
+    attributes:
+      label: Required timetracking
+      options:
+        - label: ESXP (Microsoft)
+          required: false
+  - type: textarea
     id: Notes
     attributes:
       label: Notes
