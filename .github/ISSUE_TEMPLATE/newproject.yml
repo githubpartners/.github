@@ -39,11 +39,6 @@ body:
       options:
         - label: Financial Force
           required: false
-  - type: checkboxes
-    id: esxp
-    attributes:
-      label: Required timetracking
-      options:
         - label: ESXP (Microsoft)
           required: false
   - type: textarea
