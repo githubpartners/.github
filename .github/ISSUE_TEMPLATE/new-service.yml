@@ -1,0 +1,120 @@
+name: 'New Service Form'
+description: This issue template is designed to capture the outcomes of a partner service opportunity and/or discovery meeting with a customer
+title: '[Scoping]: {Customer}'
+labels:
+  - Cosell
+
+body:
+  - type: markdown
+    attributes:
+      value: '# Instructions'
+  - type: markdown
+    attributes:
+      value: |
+        1. Please enter the outcomes of the discovery meeting with the customer.
+        2. Please also answer the facilitating questions to provide context for the internal syncs with GitHub teams.
+        3. A detailed entry will trigger a sync with a member of the GitHub Sales team within region.
+  - type: markdown
+    attributes:
+      value: '# GitHub Details'
+  - type: dropdown
+    attributes:
+      label: Partner Development Manager
+      description: Name of the Partner Development Manager
+      multiple: false
+      options:
+        - 'EMEA - @marcohat'
+        - 'EMEA - @infanterrible13'
+        - 'APAC - @kingerr'
+        - 'APAC - @cplewa'
+        - 'APAC - @tomomi0320'
+        - 'APAC - @apacanand'
+        - 'AMER - @ksekulio'
+        - 'AMER - @ortenberg'
+        - 'AMER - @skadooshall'
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Contract Type
+      description: Type of the contract for the required services
+      multiple: false
+      options:
+        - 'GitHub - Subco'
+        - 'Partner - Cosell'
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Region
+      description: Name of the region where the customer belongs
+      multiple: false
+      options:
+        - 'APAC'
+        - 'India'
+        - 'Japan'
+        - 'NEMEA'
+        - 'SEMEA'
+        - 'AMER'
+        - 'LATAM'
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Partner's Account Manager/ Sales Representative
+      description: Name of the Partner's Account Manager/ Sales Representative
+      placeholder: eg. @accountmanager-handle/email
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: '# Customer Details'
+  - type: input
+    id: account-name
+    attributes:
+      label: Account Name
+      description: Customer account name
+      placeholder: eg. Customer Name
+    validations:
+      required: true
+  - type: input
+    id: account-contact
+    attributes:
+      label: Customer Contact
+      description: Customer contact (First Name, Last Name)
+      placeholder: eg. Just Doe
+    validations:
+      required: true
+  - type: input
+    id: account-email
+    attributes:
+      label: Customer Email Address
+      description: Customer contact's email address
+      placeholder: eg. justdoe@unknown.com
+    validations:
+      required: true
+  - type: input
+    id: account-timezone
+    attributes:
+      label: Customer Time Zone
+      description: Customer operating time zone
+      placeholder: eg. EST, CET, IST
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: '# Enterprise Foundation'
+  - type: input
+    id: start-date
+    attributes:
+      label: Customer Requested Delivery Start
+      description: Requested delivery start date. **Note:** This is not a guarantee and subject to resource availability.
+      placeholder: eg. 2023-05-31 (YYYY-MM-DD)
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: '# Context or Notes'
+  - type: markdown
+    attributes:
+      value: '# Next Steps'
