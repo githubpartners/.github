@@ -100,9 +100,6 @@ body:
       placeholder: eg. EST, CET, IST
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: '# Enterprise Foundation'
   - type: input
     id: start-date
     attributes:
@@ -114,6 +111,14 @@ body:
   - type: markdown
     attributes:
       value: '# Context or Notes'
+  - type: textarea
+    id: add-context
+    attributes:
+      label: General Remarks
   - type: markdown
     attributes:
       value: '# Next Steps'
+  - type: textarea
+    id: next-steps
+    attributes:
+      label: Next Steps
