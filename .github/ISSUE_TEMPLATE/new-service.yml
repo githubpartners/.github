@@ -3,7 +3,6 @@ description: This issue template is designed to capture the outcomes of a partne
 title: '[Scoping]: {Customer}'
 labels:
   - Cosell
-
 body:
   - type: markdown
     attributes:
