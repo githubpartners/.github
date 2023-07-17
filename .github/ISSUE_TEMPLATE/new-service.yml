@@ -58,7 +58,7 @@ body:
         - 'LATAM'
     validations:
       required: true
-  - type: dropdown
+  - type: input
     attributes:
       label: Partner's Account Manager/ Sales Representative
       description: Name of the Partner's Account Manager/ Sales Representative
