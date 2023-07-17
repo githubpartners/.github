@@ -1,8 +1,6 @@
 name: 'New Service Form'
 description: This issue template is designed to capture the outcomes of a partner service opportunity and/or discovery meeting with a customer
 title: '[Scoping]: {Customer}'
-labels:
-  - Cosell
 body:
   - type: markdown
     attributes:
